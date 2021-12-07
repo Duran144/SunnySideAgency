@@ -143,7 +143,7 @@ header{
 
     h2{
         font-family: "Fraunces-Black";
-        font-size: 2.7em;
+        font-size: 3vw;
         text-align: left;
         width: 65%;
         padding: 1rem;
@@ -151,19 +151,17 @@ header{
 
     a{
         font-family: "Fraunces-Bold";
-        font-size: 1.2em;
+        font-size: 1.5vw;
         text-transform: uppercase;
         text-align: left;
         text-decoration: none;
         color: $color-black;
-        padding: 0 0 0 0;
-        width: 20.5%;
-        background-color: yellow;
+        margin-left: 8.5rem;
     }
 
     p{
         font-family: "Barlow";
-        font-size: 1em;
+        font-size: 1.2vw;
         color: $color-grayish-blue;
         width: 70%;
         line-height: 1.5rem;
@@ -190,13 +188,14 @@ header{
     }
 
     a{
+        align-self: flex-start;
         font-family: "Fraunces-Bold";
-        font-size: 1.5vw;
+        font-size: 1.5vw; 
         text-transform: uppercase;
         text-align: left;
         text-decoration: none;
         color: black;
-        margin-left: 5em;
+        margin-left: 6.5rem;
     }
 
     p{
@@ -205,9 +204,61 @@ header{
         color: $color-grayish-blue;
         line-height: 1.5rem;
         padding: 1rem;
-        width: 63%;
-        margin: 0 5rem 0 0;
+        margin-right: 2rem;
+        width: 66%;
     }
+}
+
+.underline-one{
+    position: relative;
+    align-self: flex-start;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+.underline-one::after{
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: .10em;
+    content: "";
+    width: 8em;
+    background: hsla(51, 100%, 49%, 0.267); // transparent yellow
+    height: .5em;
+    left: -.5em;  
+}
+
+.underline-one:hover::after{
+    background: hsl(51, 100%, 49%);
+}
+
+.underline-two{
+    position: relative;
+    align-self: flex-start;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+.underline-two::after{
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: .10em;
+    content: "";
+    width: 8em;
+    background: hsla(7, 99%, 70%, 0.267); // transparent yellow
+    height: .5em;
+    left: -.5em;  
+}
+
+.underline-two:hover::after{
+    background: hsla(7, 99%, 70%, 0.897);
 }
 
 .img-section-1{
@@ -436,4 +487,78 @@ header{
     width: 21.5%;
     border-radius: 50%;
     margin: 0 auto 0 auto;
+}
+
+.img-gallery{
+    display: flex;
+    justify-content: space-evenly;
+
+    img{
+        width: 25%;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 55vh;
+    background-color: hsl(169, 34%, 61%);
+}
+
+.footer-heading{
+    font-family: "Barlow-Black";
+    font-size: 3vw;
+    text-transform: lowercase;
+    text-align: center;
+    color: $color-dark-desaturated-cyan;
+    padding-top: 5rem;
+}
+
+.navbar-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+        padding: 3rem;
+
+        li{
+            display: inline;
+            font-family: "Barlow";
+            font-weight: 600;
+            font-size: 1.5vw;
+            color: $color-dark-moderate-cyan;
+            padding: 2rem;
+        }
+
+        a{
+            text-decoration: none;
+            color: $color-dark-moderate-cyan;
+
+            &:hover{
+                color: $color-white;
+            }
+        }
+    }
+}
+
+.social-links{
+    text-align: center;
+    padding: 3rem;
+    letter-spacing: 2rem;
+
+    a{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    img{
+        &:hover{
+            cursor: pointer;
+            filter:  brightness(0) invert(1);
+        }
+    }
 }
