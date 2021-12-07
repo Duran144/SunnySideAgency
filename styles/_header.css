@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../Assets/fonts/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("../Assets/fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("../Assets/fonts/Barlow-Black.ttf");
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../Assets/fonts/Fraunces-Regular.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Bold";
+  src: url("../Assets/fonts/Fraunces-Bold.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Black";
+  src: url("../Assets/fonts/Fraunces-Black.ttf");
+}
+.header-wrapper {
+  background-image: url("../images/desktop/image-header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.navbar ul {
+  padding: 1rem;
+}
+.navbar ul li {
+  display: inline;
+  padding: 1.7rem;
+  color: white;
+  font-weight: 600;
+  font-family: "Barlow";
+  font-size: 1em;
+}
+.navbar ul :nth-child(4) {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 1em;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.navbar ul :nth-child(4):hover {
+  background-color: rgba(129, 132, 152, 0.26);
+  color: white;
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 50px 50px 50px 50px;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1 {
+  color: white;
+  font-family: "Fraunces-Black";
+  font-size: 3em;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  padding: 5rem 0 5rem 0;
+}
+
+.arrow {
+  padding: 2rem 0 0 0;
+}

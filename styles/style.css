@@ -22,12 +22,30 @@
   font-family: "Fraunces-Black";
   src: url("../Assets/fonts/Fraunces-Black.ttf");
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@font-face {
+  font-family: "Barlow";
+  src: url("../Assets/fonts/Barlow-Regular.ttf");
 }
-
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("../Assets/fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("../Assets/fonts/Barlow-Black.ttf");
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../Assets/fonts/Fraunces-Regular.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Bold";
+  src: url("../Assets/fonts/Fraunces-Bold.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Black";
+  src: url("../Assets/fonts/Fraunces-Black.ttf");
+}
 .header-wrapper {
   background-image: url("../images/desktop/image-header.jpg");
   background-position: center center;
@@ -104,6 +122,30 @@ header {
   padding: 2rem 0 0 0;
 }
 
+@font-face {
+  font-family: "Barlow";
+  src: url("../Assets/fonts/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("../Assets/fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("../Assets/fonts/Barlow-Black.ttf");
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../Assets/fonts/Fraunces-Regular.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Bold";
+  src: url("../Assets/fonts/Fraunces-Bold.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Black";
+  src: url("../Assets/fonts/Fraunces-Black.ttf");
+}
 .main-content {
   display: flex;
   justify-content: space-evenly;
@@ -318,6 +360,30 @@ header {
   margin: 0 auto 0 auto;
 }
 
+@font-face {
+  font-family: "Barlow";
+  src: url("../Assets/fonts/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("../Assets/fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("../Assets/fonts/Barlow-Black.ttf");
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../Assets/fonts/Fraunces-Regular.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Bold";
+  src: url("../Assets/fonts/Fraunces-Bold.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Black";
+  src: url("../Assets/fonts/Fraunces-Black.ttf");
+}
 .Client-Testimonials-Container {
   display: flex;
   flex-direction: column;
@@ -452,6 +518,30 @@ header {
   width: 25%;
 }
 
+@font-face {
+  font-family: "Barlow";
+  src: url("../Assets/fonts/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("../Assets/fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("../Assets/fonts/Barlow-Black.ttf");
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../Assets/fonts/Fraunces-Regular.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Bold";
+  src: url("../Assets/fonts/Fraunces-Bold.ttf");
+}
+@font-face {
+  font-family: "Fraunces-Black";
+  src: url("../Assets/fonts/Fraunces-Black.ttf");
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -505,4 +595,10 @@ footer {
 .social-links img:hover {
   cursor: pointer;
   filter: brightness(0) invert(1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

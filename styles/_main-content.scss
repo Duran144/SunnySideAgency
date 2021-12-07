@@ -1,0 +1,227 @@
+@import 'variables';
+@import 'typography';
+
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 160vh;
+}
+
+.text-section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+
+    h2{
+        font-family: "Fraunces-Black";
+        font-size: 3vw;
+        text-align: left;
+        width: 65%;
+        padding: 1rem;
+    }
+
+    a{
+        font-family: "Fraunces-Bold";
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        text-align: left;
+        text-decoration: none;
+        color: $color-black;
+        margin-left: 8.5rem;
+    }
+
+    p{
+        font-family: "Barlow";
+        font-size: 1.2vw;
+        color: $color-grayish-blue;
+        width: 70%;
+        line-height: 1.5rem;
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+}
+
+
+.text-section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+
+    h2{
+        font-family: "Fraunces-Black";
+        font-size: 3vw;
+        text-align: left;
+        width: 75%;
+        padding: 1rem;
+    }
+
+    a{
+        align-self: flex-start;
+        font-family: "Fraunces-Bold";
+        font-size: 1.5vw; 
+        text-transform: uppercase;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        margin-left: 6.5rem;
+    }
+
+    p{
+        font-family: "Barlow";
+        font-size: 1.2vw;
+        color: $color-grayish-blue;
+        line-height: 1.5rem;
+        padding: 1rem;
+        margin-right: 2rem;
+        width: 66%;
+    }
+}
+
+.underline-one{
+    position: relative;
+    align-self: flex-start;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+.underline-one::after{
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: .10em;
+    content: "";
+    width: 8em;
+    background: hsla(51, 100%, 49%, 0.267); // transparent yellow
+    height: .5em;
+    left: -.5em;  
+}
+
+.underline-one:hover::after{
+    background: hsl(51, 100%, 49%);
+}
+
+.underline-two{
+    position: relative;
+    align-self: flex-start;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+.underline-two::after{
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: .10em;
+    content: "";
+    width: 8em;
+    background: hsla(7, 99%, 70%, 0.267); // transparent yellow
+    height: .5em;
+    left: -.5em;  
+}
+
+.underline-two:hover::after{
+    background: hsla(7, 99%, 70%, 0.897);
+}
+
+.img-section-1{
+    width: 50%;
+    height: 50%;
+    background-image: url("../images/desktop/image-transform.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img-section-2{
+    width: 50%;
+    height: 50%;
+    background-image: url("../images/desktop/image-stand-out.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.GD-section{
+    display: flex;
+    width: 50%;
+    height: 55%;
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.GD-heading{
+    text-align: center;
+    font-family: "Fraunces-Black";
+    font-size: 3vw;
+    padding: 1rem;
+    color: $color-dark-desaturated-cyan;
+}
+
+.GD-section-text{
+    height: 45%;
+    padding: 1rem;
+    margin: auto 0 0 0;
+
+    p{
+        font-family: "Barlow";
+        font-weight: 700;
+        font-size: 1.5vw;
+        color: $color-dark-desaturated-cyan;
+        line-height: 2rem;
+        text-align: center;
+        padding: 1rem;
+        width: 73%;
+        margin: 0 auto 0 auto;
+    }
+}
+
+.PG-section{
+    display: flex;
+    width: 50%;
+    height: 55%;
+    background-image: url("../images/desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.PG-heading{
+    text-align: center;
+    font-family: "Fraunces-Black";
+    font-size: 3vw;
+    padding: 1rem;
+    color: $color-dark-blue;
+}
+
+.PG-section-text{
+    height: 45%;
+    padding: 1rem;
+    margin: auto 0 0 0;
+
+    p{
+        font-family: "Barlow";
+        font-weight: 700;
+        font-size: 1.5vw;
+        color: $color-dark-blue;
+        line-height: 2rem;
+        text-align: center;
+        padding: 1rem;
+        width: 71%;
+        margin: 0 auto 0 auto;
+    }
+}
