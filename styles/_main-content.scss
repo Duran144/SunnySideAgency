@@ -19,14 +19,14 @@
 
     h2{
         font-family: "Fraunces-Black";
-        font-size: 3vw;
+        font-size: 2.5em;
         text-align: left;
         width: 65%;
         padding: 1rem;
     }
 
     a{
-        font-family: "Fraunces-Bold";
+        font-family: "Fraunces-Black";
         font-size: 1.5vw;
         text-transform: uppercase;
         text-align: left;
@@ -37,12 +37,12 @@
 
     p{
         font-family: "Barlow";
-        font-size: 1.2vw;
+        font-size: 1.1em;
+        font-weight: 600;
         color: $color-grayish-blue;
         width: 70%;
-        line-height: 1.5rem;
-        margin-left: 2rem;
-        padding: 1rem;
+        line-height: 1.8rem;
+        padding: 1rem 0 2rem 1.8rem;
     }
 }
 
@@ -57,31 +57,31 @@
 
     h2{
         font-family: "Fraunces-Black";
-        font-size: 3vw;
+        font-size: 2.5em;
         text-align: left;
         width: 75%;
-        padding: 1rem;
+        padding-left: 1.7rem;
+    }
+
+    p{
+        font-family: "Barlow";
+        font-size: 1.1em;
+        font-weight: 600;
+        line-height: 1.8rem;
+        color: $color-grayish-blue;
+        width: 65%;
+        padding: 2rem 0 2rem 0;
     }
 
     a{
         align-self: flex-start;
-        font-family: "Fraunces-Bold";
-        font-size: 1.5vw; 
+        font-family: "Fraunces-Black";
+        font-size: 1.1em; 
         text-transform: uppercase;
         text-align: left;
         text-decoration: none;
         color: black;
         margin-left: 7.5rem;
-    }
-
-    p{
-        font-family: "Barlow";
-        font-size: 1.2vw;
-        color: $color-grayish-blue;
-        line-height: 1.5rem;
-        padding: 1rem;
-        margin-right: 2rem;
-        width: 66%;
     }
 }
 
@@ -104,7 +104,7 @@
     width: 8em;
     background: hsla(51, 100%, 49%, 0.267); // transparent yellow
     height: .5em;
-    left: -.5em;  
+    left: -.4em;  
 }
 
 .underline-one:hover::after{
@@ -127,10 +127,10 @@
     border-bottom-right-radius: 10px;
     bottom: .10em;
     content: "";
-    width: 8em;
+    width: 8.1em;
     background: hsla(7, 99%, 70%, 0.267); // transparent yellow
     height: .5em;
-    left: -.5em;  
+    left: -.4em;  
 }
 
 .underline-two:hover::after{
@@ -194,7 +194,7 @@
 .PG-section{
     display: flex;
     width: 50%;
-    height: 55%;
+    height: 50%;
     background-image: url("../images/desktop/image-photography.jpg");
     background-repeat: no-repeat;
     background-position: center center;
