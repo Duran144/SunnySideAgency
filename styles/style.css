@@ -103,6 +103,59 @@ header {
   font-family: "Fraunces";
 }
 
+.dropbtn {
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background: #2980B9;
+}
+
+.dropdown {
+  padding-left: 1.5em;
+  padding-right: 2rem;
+  position: relative;
+  display: none;
+}
+
+.dropdown::before {
+  content: "";
+  position: absolute;
+  top: 1em;
+  left: 0;
+  width: 2.5em;
+  height: 0.4em;
+  border-top: 1em double white;
+  border-bottom: 0.33em solid white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background: white;
+}
+
+.show {
+  display: block;
+}
+
 .heading {
   display: flex;
   flex-direction: column;
@@ -210,7 +263,7 @@ header {
   text-align: left;
   text-decoration: none;
   color: black;
-  margin-left: 6.5rem;
+  margin-left: 7.5rem;
 }
 .text-section-two p {
   font-family: "Barlow";
@@ -244,7 +297,7 @@ header {
 }
 
 .underline-one:hover::after {
-  background: #fad400;
+  background: rgba(250, 212, 0, 0.904);
 }
 
 .underline-two {
@@ -269,7 +322,7 @@ header {
 }
 
 .underline-two:hover::after {
-  background: rgba(254, 120, 103, 0.897);
+  background: rgba(254, 120, 103, 0.904);
 }
 
 .img-section-1 {
@@ -601,4 +654,250 @@ footer {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+  body .header-wrapper {
+    background-image: url("../images/mobile/image-header.jpg");
+    height: 95vh;
+  }
+  body .navbar {
+    display: none;
+  }
+  body .dropdown {
+    display: inline-block;
+    padding-right: 1rem;
+  }
+  body .dropdown::before {
+    border-top: 0.9em double white;
+    height: 0.2em;
+    top: 0.9em;
+  }
+  body .heading {
+    height: 65%;
+  }
+  body .heading h1 {
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    padding: 1rem 0 0 0;
+    text-align: center;
+  }
+  body .arrow {
+    padding: 3rem 0 0 0;
+  }
+  body .main-content {
+    height: 120vh;
+  }
+  body .text-section-one {
+    order: 2;
+    width: 100%;
+    height: 55%;
+  }
+  body .text-section-one h2 {
+    font-size: 2em;
+    width: 99%;
+    text-align: center;
+  }
+  body .text-section-one p {
+    margin: 0 auto 0 auto;
+    width: 99%;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5rem;
+  }
+  body .text-section-one a {
+    font-size: 1em;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  body .underline-one::after {
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 0.2em;
+    content: "";
+    width: 8em;
+    background: rgba(250, 212, 0, 0.267);
+    height: 0.5em;
+  }
+  body .text-section-two {
+    order: 3;
+    width: 100%;
+    height: 55%;
+  }
+  body .text-section-two h2 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  body .text-section-two p {
+    margin: 0 auto 0 auto;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.1em;
+    width: 93%;
+  }
+  body .text-section-two a {
+    font-size: 1em;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  body .underline-two::after {
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 0.2em;
+    content: "";
+    width: 8em;
+    background: rgba(254, 120, 103, 0.267);
+    height: 0.5em;
+  }
+  body .img-section-1 {
+    order: 1;
+    width: 100%;
+    height: 50%;
+  }
+  body .img-section-2 {
+    order: 3;
+    width: 100%;
+    height: 50%;
+  }
+  body .GD-section {
+    order: 5;
+    width: 100%;
+    height: 90%;
+  }
+  body .GD-heading {
+    font-size: 1.8em;
+  }
+  body .GD-section-text {
+    padding: 0;
+    height: 35%;
+  }
+  body .GD-section-text p {
+    font-size: 1em;
+    line-height: 1.5rem;
+    width: 100%;
+  }
+  body .PG-section {
+    order: 6;
+    width: 100%;
+    height: 90%;
+  }
+  body .PG-heading {
+    font-size: 1.8rem;
+  }
+  body .PG-section-text {
+    padding: 0;
+    height: 35%;
+  }
+  body .PG-section-text p {
+    font-size: 1em;
+    line-height: 1.5rem;
+    width: 100%;
+  }
+  body .Client-Testimonials-Container {
+    order: 7;
+    height: 190vh;
+  }
+  body .Client-Testimonials-Container h2 {
+    font-size: 0.8em;
+    font-weight: 800;
+    letter-spacing: 5px;
+    padding: 3rem 0 3rem 0;
+  }
+  body .Client-Testimonials {
+    flex-direction: column;
+    width: 100%;
+  }
+  body .Client-Emily h3 {
+    font-size: 1em;
+    text-align: center;
+  }
+  body .Client-Emily p {
+    font-size: 1.1em;
+    width: 86%;
+    margin: 0 auto 0 auto;
+    padding: 2rem 0 2rem 0;
+    line-height: 1.5rem;
+  }
+  body .Client-Emily :nth-child(4) {
+    font-size: 0.8em;
+    padding-bottom: 4rem;
+  }
+  body .Client-Thomas h3 {
+    font-size: 1em;
+    text-align: center;
+  }
+  body .Client-Thomas p {
+    font-size: 1.1em;
+    width: 85%;
+    margin: 0 auto 0 auto;
+    padding: 2rem 0 2rem 0;
+    line-height: 1.5rem;
+  }
+  body .Client-Thomas :nth-child(4) {
+    font-size: 0.8em;
+    padding-bottom: 4rem;
+  }
+  body .Client-Jennie h3 {
+    font-size: 1em;
+    text-align: center;
+  }
+  body .Client-Jennie p {
+    font-size: 1.1em;
+    width: 83%;
+    margin: 0 auto 0 auto;
+    padding: 2rem 0 2rem 0;
+    line-height: 1.5rem;
+  }
+  body .Client-Jennie :nth-child(4) {
+    font-size: 0.8em;
+    padding-bottom: 4rem;
+  }
+  body .img-gallery {
+    order: 8;
+    height: 60vh;
+    flex-wrap: wrap;
+  }
+  body .img-gallery img {
+    width: 50%;
+    height: 50%;
+  }
+  body .milk {
+    content: url("../images/mobile/image-gallery-milkbottles.jpg");
+  }
+  body .orange {
+    content: url("../images/mobile/image-gallery-orange.jpg");
+  }
+  body .cone {
+    content: url("../images/mobile/image-gallery-cone.jpg");
+  }
+  body .sugar {
+    content: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+  }
+  body footer {
+    height: 65vh;
+    order: 9;
+  }
+  body .footer-heading {
+    font-family: "Barlow-Black";
+    padding: 4rem 0 2.5rem 0;
+    font-size: 2.5em;
+  }
+  body .navbar-footer ul {
+    padding: 0;
+  }
+  body .navbar-footer ul li {
+    font-size: 1.1em;
+    color: #458c7e;
+    padding: 1.7rem;
+  }
+  body .social-links {
+    padding-top: 5rem;
+  }
 }

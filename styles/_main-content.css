@@ -86,7 +86,7 @@
   text-align: left;
   text-decoration: none;
   color: black;
-  margin-left: 6.5rem;
+  margin-left: 7.5rem;
 }
 .text-section-two p {
   font-family: "Barlow";
@@ -120,7 +120,7 @@
 }
 
 .underline-one:hover::after {
-  background: #fad400;
+  background: rgba(250, 212, 0, 0.904);
 }
 
 .underline-two {
@@ -145,7 +145,7 @@
 }
 
 .underline-two:hover::after {
-  background: rgba(254, 120, 103, 0.897);
+  background: rgba(254, 120, 103, 0.904);
 }
 
 .img-section-1 {

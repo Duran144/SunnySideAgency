@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'typography';
+@import 'mixins';
 
 .main-content{
     display: flex;
@@ -70,7 +71,7 @@
         text-align: left;
         text-decoration: none;
         color: black;
-        margin-left: 6.5rem;
+        margin-left: 7.5rem;
     }
 
     p{
@@ -107,7 +108,7 @@
 }
 
 .underline-one:hover::after{
-    background: hsl(51, 100%, 49%);
+    background: hsla(51, 100%, 49%, 0.904);
 }
 
 .underline-two{
@@ -133,7 +134,7 @@
 }
 
 .underline-two:hover::after{
-    background: hsla(7, 99%, 70%, 0.897);
+    background: hsla(7, 99%, 70%, 0.904);
 }
 
 .img-section-1{
