@@ -346,7 +346,7 @@ header {
 .GD-section {
   display: flex;
   width: 50%;
-  height: 55%;
+  height: 60%;
   background-image: url("../images/desktop/image-graphic-design.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -356,20 +356,20 @@ header {
 .GD-heading {
   text-align: center;
   font-family: "Fraunces-Black";
-  font-size: 3vw;
+  font-size: 2em;
   padding: 1rem;
   color: #25564b;
 }
 
 .GD-section-text {
-  height: 45%;
+  height: 40%;
   padding: 1rem;
   margin: auto 0 0 0;
 }
 .GD-section-text p {
   font-family: "Barlow";
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.2em;
   color: #25564b;
   line-height: 2rem;
   text-align: center;
@@ -381,7 +381,7 @@ header {
 .PG-section {
   display: flex;
   width: 50%;
-  height: 50%;
+  height: 60%;
   background-image: url("../images/desktop/image-photography.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -391,25 +391,25 @@ header {
 .PG-heading {
   text-align: center;
   font-family: "Fraunces-Black";
-  font-size: 3vw;
+  font-size: 2em;
   padding: 1rem;
   color: #19536b;
 }
 
 .PG-section-text {
-  height: 45%;
+  height: 40%;
   padding: 1rem;
   margin: auto 0 0 0;
 }
 .PG-section-text p {
   font-family: "Barlow";
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.2em;
   color: #19536b;
   line-height: 2rem;
   text-align: center;
   padding: 1rem;
-  width: 71%;
+  width: 75%;
   margin: 0 auto 0 auto;
 }
 
@@ -445,12 +445,12 @@ header {
 }
 .Client-Testimonials-Container h2 {
   font-family: "Fraunces";
-  font-size: 2vw;
+  font-size: 1.5em;
   text-transform: uppercase;
   text-align: center;
   color: #818498;
-  letter-spacing: 7px;
-  padding: 8rem 0 5rem 0;
+  letter-spacing: 5px;
+  padding: 8rem 0 6rem 0;
 }
 
 .Client-Testimonials {
@@ -463,19 +463,15 @@ header {
 
 .Client-Emily h3 {
   font-family: "Fraunces-Black";
+  font-size: 1.17em;
   text-align: center;
-}
-.Client-Emily h4 {
-  padding: 0.5rem;
-  text-align: center;
-  color: #36383a;
 }
 .Client-Emily p {
   width: 93%;
   margin: 0 auto 0 auto;
   font-family: "Barlow";
   font-weight: 600;
-  font-size: 1.3vw;
+  font-size: 1.1em;
   color: #5a636c;
   padding: 3rem 0 3rem 0;
   text-align: center;
@@ -484,8 +480,10 @@ header {
 .Client-Emily :nth-child(4) {
   font-family: "Barlow";
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 0.9em;
   color: #a7abae;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .client-img-emily {
@@ -497,11 +495,7 @@ header {
 
 .Client-Thomas h3 {
   font-family: "Fraunces-Black";
-  text-align: center;
-}
-.Client-Thomas h4 {
-  padding: 0.5rem;
-  color: #36383a;
+  font-size: 1.17em;
   text-align: center;
 }
 .Client-Thomas p {
@@ -509,7 +503,7 @@ header {
   margin: 0 auto 0 auto;
   font-family: "Barlow";
   font-weight: 600;
-  font-size: 1.3vw;
+  font-size: 1.1em;
   color: #5a636c;
   padding: 3rem 0 3rem 0;
   text-align: center;
@@ -518,8 +512,10 @@ header {
 .Client-Thomas :nth-child(4) {
   font-family: "Barlow";
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 0.9em;
   color: #a7abae;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .client-img-thomas {
@@ -531,18 +527,14 @@ header {
 
 .Client-Jennie h3 {
   font-family: "Fraunces-Black";
-  text-align: center;
-}
-.Client-Jennie h4 {
-  padding: 0.5rem;
-  color: #36383a;
+  font-size: 1.17em;
   text-align: center;
 }
 .Client-Jennie p {
   width: 100%;
   font-family: "Barlow";
   font-weight: 600;
-  font-size: 1.3vw;
+  font-size: 1.1em;
   color: #5a636c;
   padding: 3rem 0 3rem 0;
   text-align: center;
@@ -552,8 +544,10 @@ header {
 .Client-Jennie :nth-child(4) {
   font-family: "Barlow";
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 0.9em;
   color: #a7abae;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .client-img-jennie {

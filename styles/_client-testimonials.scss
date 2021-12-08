@@ -9,12 +9,12 @@
 
     h2{
         font-family: "Fraunces";
-        font-size: 2vw;
+        font-size: 1.5em;
         text-transform: uppercase;
         text-align: center;
         color: $color-dark-grayish-blue;
-        letter-spacing: 7px;
-        padding: 8rem 0 5rem 0;
+        letter-spacing: 5px;
+        padding: 8rem 0 6rem 0;
     }
 }
 
@@ -30,13 +30,8 @@
 
     h3{
         font-family: "Fraunces-Black";
+        font-size: 1.17em;
         text-align: center;
-    }
-
-    h4{
-        padding: .5rem;
-        text-align: center;
-        color: hsl(210, 4%, 22%);
     }
     
     p{
@@ -44,7 +39,7 @@
         margin: 0 auto 0 auto;
         font-family: "Barlow";
         font-weight: 600;
-        font-size: 1.3vw;
+        font-size: 1.1em;
         color: $color-very-dark-grayish-blue;
         padding: 3rem 0 3rem 0;
         text-align: center;
@@ -52,8 +47,10 @@
     }:nth-child(4){
         font-family: "Barlow";
         font-weight: 600;
-        font-size: 1.2vw;
+        font-size: .9em;
         color: $color-grayish-blue;
+        text-align: center;
+        padding: .5rem;
     }
 }
 
@@ -68,12 +65,7 @@
 
     h3{
         font-family: "Fraunces-Black";
-        text-align: center;
-    }
-
-    h4{
-        padding: .5rem;
-        color: hsl(210, 4%, 22%);
+        font-size: 1.17em;
         text-align: center;
     }
     
@@ -82,7 +74,7 @@
         margin: 0 auto 0 auto;
         font-family: "Barlow";
         font-weight: 600;
-        font-size: 1.3vw;
+        font-size: 1.1em;
         color: $color-very-dark-grayish-blue;
         padding: 3rem 0 3rem 0;
         text-align: center;
@@ -90,8 +82,10 @@
     }:nth-child(4){
         font-family: "Barlow";
         font-weight: 600;
-        font-size: 1.2vw;
+        font-size: .9em;
         color: $color-grayish-blue;
+        text-align: center;
+        padding: .5rem;
     }
 }
 
@@ -105,12 +99,7 @@
 .Client-Jennie{
     h3{
         font-family: "Fraunces-Black";
-        text-align: center;
-    }
-
-    h4{
-        padding: .5rem;
-        color: hsl(210, 4%, 22%);
+        font-size: 1.17em;
         text-align: center;
     }
 
@@ -118,7 +107,7 @@
         width: 100%;
         font-family: "Barlow";
         font-weight: 600;
-        font-size: 1.3vw;
+        font-size: 1.1em;
         color: $color-very-dark-grayish-blue;
         padding: 3rem 0 3rem 0;
         text-align: center;
@@ -127,8 +116,10 @@
     }:nth-child(4){
         font-family: "Barlow";
         font-weight: 600;
-        font-size: 1.2vw;
+        font-size: .9em;
         color: $color-grayish-blue;
+        padding: .5rem;
+        text-align: center;
     }
 }
 

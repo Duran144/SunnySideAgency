@@ -169,7 +169,7 @@
 .GD-section {
   display: flex;
   width: 50%;
-  height: 55%;
+  height: 60%;
   background-image: url("../images/desktop/image-graphic-design.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -179,20 +179,20 @@
 .GD-heading {
   text-align: center;
   font-family: "Fraunces-Black";
-  font-size: 3vw;
+  font-size: 2em;
   padding: 1rem;
   color: #25564b;
 }
 
 .GD-section-text {
-  height: 45%;
+  height: 40%;
   padding: 1rem;
   margin: auto 0 0 0;
 }
 .GD-section-text p {
   font-family: "Barlow";
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.2em;
   color: #25564b;
   line-height: 2rem;
   text-align: center;
@@ -204,7 +204,7 @@
 .PG-section {
   display: flex;
   width: 50%;
-  height: 50%;
+  height: 60%;
   background-image: url("../images/desktop/image-photography.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -214,24 +214,24 @@
 .PG-heading {
   text-align: center;
   font-family: "Fraunces-Black";
-  font-size: 3vw;
+  font-size: 2em;
   padding: 1rem;
   color: #19536b;
 }
 
 .PG-section-text {
-  height: 45%;
+  height: 40%;
   padding: 1rem;
   margin: auto 0 0 0;
 }
 .PG-section-text p {
   font-family: "Barlow";
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.2em;
   color: #19536b;
   line-height: 2rem;
   text-align: center;
   padding: 1rem;
-  width: 71%;
+  width: 75%;
   margin: 0 auto 0 auto;
 }
