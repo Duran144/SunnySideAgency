@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 160vh;
+    height: 210vh;
 }
 
 .text-section-one{
@@ -27,7 +27,7 @@
 
     a{
         font-family: "Fraunces-Black";
-        font-size: 1.5vw;
+        font-size: 1.1em;
         text-transform: uppercase;
         text-align: left;
         text-decoration: none;
@@ -158,7 +158,7 @@
 .GD-section{
     display: flex;
     width: 50%;
-    height: 60%;
+    height: 55%;
     background-image: url("../images/desktop/image-graphic-design.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -186,7 +186,7 @@
         line-height: 2rem;
         text-align: center;
         padding: 1rem;
-        width: 73%;
+        width: 70%;
         margin: 0 auto 0 auto;
     }
 }
@@ -194,7 +194,7 @@
 .PG-section{
     display: flex;
     width: 50%;
-    height: 60%;
+    height: 55%;
     background-image: url("../images/desktop/image-photography.jpg");
     background-repeat: no-repeat;
     background-position: center center;

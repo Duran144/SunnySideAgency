@@ -27,7 +27,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 160vh;
 }
 
 header {
@@ -135,8 +135,9 @@ header {
 .heading {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  height: 58%;
 }
 .heading h1 {
   color: white;
@@ -144,9 +145,4 @@ header {
   font-size: 3.2em;
   letter-spacing: 10px;
   text-transform: uppercase;
-  padding: 5rem 0 5rem 0;
-}
-
-.arrow {
-  padding: 2rem 0 0 0;
 }

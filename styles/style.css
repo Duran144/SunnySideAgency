@@ -51,7 +51,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 160vh;
 }
 
 header {
@@ -159,8 +159,9 @@ header {
 .heading {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  height: 58%;
 }
 .heading h1 {
   color: white;
@@ -168,11 +169,6 @@ header {
   font-size: 3.2em;
   letter-spacing: 10px;
   text-transform: uppercase;
-  padding: 5rem 0 5rem 0;
-}
-
-.arrow {
-  padding: 2rem 0 0 0;
 }
 
 @font-face {
@@ -203,7 +199,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  height: 160vh;
+  height: 210vh;
 }
 
 .text-section-one {
@@ -223,7 +219,7 @@ header {
 }
 .text-section-one a {
   font-family: "Fraunces-Black";
-  font-size: 1.5vw;
+  font-size: 1.1em;
   text-transform: uppercase;
   text-align: left;
   text-decoration: none;
@@ -346,7 +342,7 @@ header {
 .GD-section {
   display: flex;
   width: 50%;
-  height: 60%;
+  height: 55%;
   background-image: url("../images/desktop/image-graphic-design.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -374,14 +370,14 @@ header {
   line-height: 2rem;
   text-align: center;
   padding: 1rem;
-  width: 73%;
+  width: 70%;
   margin: 0 auto 0 auto;
 }
 
 .PG-section {
   display: flex;
   width: 50%;
-  height: 60%;
+  height: 55%;
   background-image: url("../images/desktop/image-photography.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -441,7 +437,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
 }
 .Client-Testimonials-Container h2 {
   font-family: "Fraunces";
@@ -593,7 +589,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 55vh;
+  height: 65vh;
   background-color: #7abdb1;
 }
 
@@ -668,16 +664,13 @@ footer {
     top: 0.9em;
   }
   body .heading {
-    height: 65%;
+    height: 63%;
   }
   body .heading h1 {
     font-size: 2.5em;
     letter-spacing: 5px;
     padding: 1rem 0 0 0;
     text-align: center;
-  }
-  body .arrow {
-    padding: 3rem 0 0 0;
   }
   body .main-content {
     height: 120vh;
@@ -694,6 +687,7 @@ footer {
   }
   body .text-section-one p {
     margin: 0 auto 0 auto;
+    padding: 1rem 1rem 2rem 1rem;
     width: 98%;
     text-align: center;
     font-size: 1.1em;
@@ -701,7 +695,7 @@ footer {
   }
   body .text-section-one a {
     font-size: 1em;
-    padding-top: 1rem;
+    margin-left: 8rem;
     text-align: center;
   }
   body .underline-one::after {
@@ -735,8 +729,8 @@ footer {
   }
   body .text-section-two a {
     font-size: 1em;
-    padding-top: 1rem;
     text-align: center;
+    margin-left: 8rem;
   }
   body .underline-two::after {
     position: absolute;
@@ -796,7 +790,7 @@ footer {
   }
   body .Client-Testimonials-Container {
     order: 7;
-    height: 190vh;
+    height: 195vh;
   }
   body .Client-Testimonials-Container h2 {
     font-size: 0.8em;
@@ -844,7 +838,7 @@ footer {
   }
   body .Client-Jennie p {
     font-size: 1.1em;
-    width: 83%;
+    width: 88%;
     margin: 0 auto 0 auto;
     padding: 2rem 0 2rem 0;
     line-height: 1.5rem;
@@ -875,7 +869,7 @@ footer {
     content: url("../images/mobile/image-gallery-sugar-cubes.jpg");
   }
   body footer {
-    height: 65vh;
+    height: 60vh;
     order: 9;
   }
   body .footer-heading {
