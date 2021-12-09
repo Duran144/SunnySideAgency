@@ -84,6 +84,7 @@ header {
   font-size: 1em;
   border: none;
   cursor: pointer;
+  padding: 1.3rem;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -91,8 +92,6 @@ header {
 }
 
 .dropdown {
-  padding-left: 1.5em;
-  padding-right: 2rem;
   position: relative;
   display: none;
 }

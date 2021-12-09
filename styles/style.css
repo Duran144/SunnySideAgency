@@ -108,6 +108,7 @@ header {
   font-size: 1em;
   border: none;
   cursor: pointer;
+  padding: 1.3rem;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -115,8 +116,6 @@ header {
 }
 
 .dropdown {
-  padding-left: 1.5em;
-  padding-right: 2rem;
   position: relative;
   display: none;
 }
@@ -656,12 +655,26 @@ footer {
   }
   body .dropdown {
     display: inline-block;
-    padding-right: 1rem;
+    padding-right: 1.5rem;
   }
   body .dropdown::before {
-    border-top: 0.9em double white;
-    height: 0.2em;
-    top: 0.9em;
+    border-top: 0.8em double white;
+    border-bottom: 0.3em solid white;
+    height: 0.3em;
+    top: 0.6em;
+  }
+  body .dropdown-content {
+    min-width: 104px;
+  }
+  body .dropdown-content::after {
+    content: "";
+    border-top: 100px solid transparent;
+    border-left: 100px solid blue;
+    position: absolute;
+    right: -90px;
+    top: 0;
+    height: 0;
+    width: 0;
   }
   body .heading {
     height: 63%;

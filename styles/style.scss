@@ -26,12 +26,28 @@ body{
 
         .dropdown{
             display: inline-block;
-            padding-right: 1rem;
+            padding-right: 1.5rem;
 
             &::before{
-                border-top: .9em double white;
-                height: .2em;
-                top: .9em;
+                border-top: .8em double white;
+                border-bottom: .3em solid white;
+                height: .3em;
+                top: .6em;
+            }
+        }
+
+        .dropdown-content{
+            min-width: 104px;
+
+            &::after{
+                content: "";
+                border-top: 100px solid transparent;
+                border-left: 100px solid blue;
+                position: absolute;
+                right: -90px;
+                top: 0;
+                height: 0;
+                width: 0;
             }
         }
 
