@@ -1,13 +1,13 @@
 "use strict";
 
-// When the user clicks on the button, toggle between hiding and showing the dropdown content
-function toggle() {
-  document.getElementById("myDropdown").classList.toggle("show");
+/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("dropdown").classList.toggle("show");
 } // Close the dropdown menu if the user clicks outside of it
 
 
-window.onclick = function (e) {
-  if (!e.target.matches('.dropbtn')) {
+window.onclick = function (event) {
+  if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
 

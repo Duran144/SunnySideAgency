@@ -24,33 +24,6 @@ body{
             display: none;
         }
 
-        .dropdown{
-            display: inline-block;
-            padding-right: 1.5rem;
-
-            &::before{
-                border-top: .8em double white;
-                border-bottom: .3em solid white;
-                height: .3em;
-                top: .6em;
-            }
-        }
-
-        .dropdown-content{
-            min-width: 104px;
-
-            &::after{
-                content: "";
-                border-top: 100px solid transparent;
-                border-left: 100px solid blue;
-                position: absolute;
-                right: -90px;
-                top: 0;
-                height: 0;
-                width: 0;
-            }
-        }
-
         .heading{
             height: 63%;
             h1{
@@ -86,23 +59,24 @@ body{
             }
 
             a{
+                position: relative;
                 font-size: 1em;
-                margin-left: 8rem;
                 text-align: center;
+                margin-left: 0;
+                background-color: $color-yellow;
             }
         }
 
-        .underline-one::after{
-            position: absolute;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-            bottom: .2em;
+        .text-section-one a::after{
             content: "";
-            width: 8em;
-            background: hsla(51, 100%, 49%, 0.267); // transparent yellow
-            height: .5em;
+            position: absolute;
+            height: 0.5rem;
+            left: -5px;
+            right: -5px;
+            bottom: 0;
+            border-radius: 50px;
+            opacity: 0.3;
+            z-index: -1;
         }
 
         .text-section-two{
@@ -129,19 +103,6 @@ body{
                 text-align: center;
                 margin-left: 8rem;
             }
-        }
-
-        .underline-two::after{
-            position: absolute;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-            bottom: .2em;
-            content: "";
-            width: 8em;
-            background: hsla(7, 99%, 70%, 0.267); // transparent soft-red
-            height: .5em;
         }
 
         .img-section-1{
