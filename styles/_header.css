@@ -79,6 +79,10 @@ header {
   font-family: "Fraunces";
 }
 
+.mobile-navbar {
+  display: none;
+}
+
 .heading {
   display: flex;
   flex-direction: column;

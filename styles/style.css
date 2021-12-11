@@ -103,6 +103,10 @@ header {
   font-family: "Fraunces";
 }
 
+.mobile-navbar {
+  display: none;
+}
+
 .heading {
   display: flex;
   flex-direction: column;
@@ -601,6 +605,11 @@ footer {
   body .navbar {
     display: none;
   }
+  body .mobile-navbar {
+    display: block;
+    align-self: center;
+    padding-bottom: 0.4rem;
+  }
   body .heading {
     height: 63%;
   }
@@ -637,17 +646,6 @@ footer {
     text-align: center;
     margin-left: 0;
     background-color: #fad400;
-  }
-  body .text-section-one a::after {
-    content: "";
-    position: absolute;
-    height: 0.5rem;
-    left: -5px;
-    right: -5px;
-    bottom: 0;
-    border-radius: 50px;
-    opacity: 0.3;
-    z-index: -1;
   }
   body .text-section-two {
     order: 3;
