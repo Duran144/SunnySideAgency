@@ -168,15 +168,6 @@ header {
   width: 65%;
   padding: 1rem;
 }
-.text-section-one a {
-  font-family: "Fraunces-Black";
-  font-size: 1.1em;
-  text-transform: uppercase;
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  margin-left: 8.5rem;
-}
 .text-section-one p {
   font-family: "Barlow";
   font-size: 1.1em;
@@ -185,6 +176,37 @@ header {
   width: 70%;
   line-height: 1.8rem;
   padding: 1rem 0 2rem 1.8rem;
+}
+.text-section-one a {
+  align-self: flex-start;
+  font-family: "Fraunces-Black";
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  margin-left: 8.5rem;
+}
+
+.underline-one {
+  position: relative;
+}
+.underline-one::after {
+  content: "";
+  position: absolute;
+  height: 0.5em;
+  width: 8em;
+  left: -0.4em;
+  right: 10px;
+  bottom: -0.1em;
+  border-radius: 50px;
+  opacity: 0.5;
+  z-index: -1;
+  background-color: rgba(250, 212, 0, 0.651);
+}
+
+.underline-one:hover::after {
+  background-color: #fad400;
 }
 
 .text-section-two {
@@ -222,54 +244,25 @@ header {
   margin-left: 7.5rem;
 }
 
-.underline-one {
-  position: relative;
-  align-self: flex-start;
-  padding-bottom: 5px;
-  display: inline-block;
-}
-
-.underline-one::after {
-  position: absolute;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  bottom: 0.1em;
-  content: "";
-  width: 8em;
-  background: rgba(250, 212, 0, 0.267);
-  height: 0.5em;
-  left: -0.4em;
-}
-
-.underline-one:hover::after {
-  background: rgba(250, 212, 0, 0.904);
-}
-
 .underline-two {
   position: relative;
-  align-self: flex-start;
-  padding-bottom: 5px;
-  display: inline-block;
 }
-
 .underline-two::after {
-  position: absolute;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  bottom: 0.1em;
   content: "";
-  width: 8.1em;
-  background: rgba(254, 120, 103, 0.267);
+  position: absolute;
   height: 0.5em;
+  width: 8em;
   left: -0.4em;
+  right: 10px;
+  bottom: -0.1em;
+  border-radius: 50px;
+  opacity: 0.5;
+  z-index: -1;
+  background-color: rgba(254, 120, 103, 0.74);
 }
 
 .underline-two:hover::after {
-  background: rgba(254, 120, 103, 0.904);
+  background-color: #fe7867;
 }
 
 .img-section-1 {
@@ -641,11 +634,9 @@ footer {
     line-height: 1.5rem;
   }
   body .text-section-one a {
-    position: relative;
     font-size: 1em;
     text-align: center;
-    margin-left: 0;
-    background-color: #fad400;
+    margin-left: 8rem;
   }
   body .text-section-two {
     order: 3;

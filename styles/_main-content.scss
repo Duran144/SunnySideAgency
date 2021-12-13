@@ -25,16 +25,6 @@
         padding: 1rem;
     }
 
-    a{
-        font-family: "Fraunces-Black";
-        font-size: 1.1em;
-        text-transform: uppercase;
-        text-align: left;
-        text-decoration: none;
-        color: $color-black;
-        margin-left: 8.5rem;
-    }
-
     p{
         font-family: "Barlow";
         font-size: 1.1em;
@@ -44,6 +34,39 @@
         line-height: 1.8rem;
         padding: 1rem 0 2rem 1.8rem;
     }
+
+    a{
+        align-self: flex-start;
+        font-family: "Fraunces-Black";
+        font-size: 1.1em; 
+        text-transform: uppercase;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        margin-left: 8.5rem;
+    }
+}
+
+.underline-one{
+    position: relative;
+
+    &::after{
+        content: '';
+        position: absolute;
+        height: .5em;
+        width: 8em;
+        left: -.4em;
+        right: 10px;
+        bottom: -.1em;
+        border-radius: 50px;
+        opacity: 0.5;
+        z-index: -1;
+        background-color: hsla(51, 100%, 49%, 0.651);
+    }
+}
+
+.underline-one:hover::after{
+    background-color: $color-yellow;
 }
 
 
@@ -85,55 +108,26 @@
     }
 }
 
-.underline-one{
-    position: relative;
-    align-self: flex-start;
-    padding-bottom: 5px;
-    display: inline-block;
-}
-
-
-.underline-one::after{
-    position: absolute;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    bottom: .10em;
-    content: "";
-    width: 8em;
-    background: hsla(51, 100%, 49%, 0.267); // transparent yellow
-    height: .5em;
-    left: -.4em;  
-}
-
-.underline-one:hover::after{
-    background: hsla(51, 100%, 49%, 0.904);
-}
-
 .underline-two{
     position: relative;
-    align-self: flex-start;
-    padding-bottom: 5px;
-    display: inline-block;
-}
 
-.underline-two::after{
-    position: absolute;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    bottom: .10em;
-    content: "";
-    width: 8.1em;
-    background: hsla(7, 99%, 70%, 0.267); // transparent yellow
-    height: .5em;
-    left: -.4em;  
+    &::after{
+        content: '';
+        position: absolute;
+        height: .5em;
+        width: 8em;
+        left: -.4em;
+        right: 10px;
+        bottom: -.1em;
+        border-radius: 50px;
+        opacity: 0.5;
+        z-index: -1;
+        background-color: hsla(7, 99%, 70%, 0.74);
+    }
 }
 
 .underline-two:hover::after{
-    background: hsla(7, 99%, 70%, 0.904);
+    background-color: $color-soft-red;
 }
 
 .img-section-1{
