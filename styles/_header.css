@@ -46,12 +46,14 @@ header {
 .navbar ul li {
   display: inline;
   padding: 1.7rem;
-  color: white;
   font-weight: 600;
   font-family: "Barlow";
   font-size: 1em;
 }
-.navbar ul :nth-child(4) {
+.navbar ul li a {
+  color: white;
+}
+.navbar ul li:last-of-type a {
   background-color: white;
   color: black;
   border: none;
@@ -66,7 +68,7 @@ header {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.navbar ul :nth-child(4):hover {
+.navbar ul li:last-of-type a:hover {
   background-color: rgba(129, 132, 152, 0.26);
   color: white;
   cursor: pointer;
@@ -77,10 +79,6 @@ header {
   border-radius: 50px 50px 50px 50px;
   text-transform: uppercase;
   font-family: "Fraunces";
-}
-
-.mobile-navbar {
-  display: none;
 }
 
 .heading {
