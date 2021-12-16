@@ -105,11 +105,11 @@ header {
   font-family: "Fraunces";
 }
 
-.menubtn {
+.mobilebtn {
   display: none;
 }
 
-.navLinks {
+.navigationlinks {
   display: none;
 }
 
@@ -594,7 +594,6 @@ footer {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 @media (max-width: 375px) {
@@ -605,12 +604,12 @@ footer {
   body .navbar {
     display: none;
   }
-  body .menubtn {
+  body .mobilebtn {
     display: inline;
     padding-top: 1rem;
   }
-  body .navLinks {
-    display: none;
+  body .navigationlinks {
+    display: flex;
     justify-content: center;
     text-align: center;
     position: absolute;
@@ -625,30 +624,34 @@ footer {
     transform: translateX(110vw);
     transition: all 0.5s cubic-bezier(0.4, 0.8, 0.4, 1.43);
   }
-  body .navLinks.open {
+  body .navigationlinks.open {
     display: flex;
     opacity: 1;
     transform: translateX(0vw);
     transition: all 0.5s cubic-bezier(0.4, 0.8, 0.4, 1.43);
   }
-  body .navLinks ul li {
+  body .navigationlinks ul {
+    list-style: none;
+  }
+  body .navigationlinks ul li {
     margin: 1.5rem 0;
     transform: translateY(0);
     transition: all 0.2s ease;
   }
-  body .navLinks ul li a {
+  body .navigationlinks ul li a {
+    text-decoration: none;
     color: #a7abae;
   }
-  body .navLinks ul li:hover {
+  body .navigationlinks ul li:hover {
     transform: translateY(2px);
   }
-  body .navLinks ul li:active {
+  body .navigationlinks ul li:active {
     transform: scale(0.8);
   }
-  body .navLinks ul li:last-of-type {
+  body .navigationlinks ul li:last-of-type {
     margin: 2rem 0;
   }
-  body .navLinks ul li:last-of-type a {
+  body .navigationlinks ul li:last-of-type a {
     background-color: #fad400;
     padding: 1rem 1.5rem;
     border-radius: 100px;
@@ -658,7 +661,7 @@ footer {
     color: black;
     font-weight: 600;
   }
-  body .navLinks::before {
+  body .navigationlinks::before {
     content: "";
     position: absolute;
     top: -2rem;
