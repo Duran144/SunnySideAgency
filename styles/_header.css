@@ -51,6 +51,7 @@ header {
   font-size: 1em;
 }
 .navbar ul li a {
+  text-decoration: none;
   color: white;
 }
 .navbar ul li:last-of-type a {

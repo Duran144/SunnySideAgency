@@ -70,11 +70,11 @@
 .underline-one::after {
   content: "";
   position: absolute;
-  height: 0.5em;
+  height: 0.6em;
   width: 8em;
   left: -0.4em;
   right: 10px;
-  bottom: -0.1em;
+  bottom: -0.2em;
   border-radius: 50px;
   opacity: 0.5;
   z-index: -1;
@@ -126,11 +126,11 @@
 .underline-two::after {
   content: "";
   position: absolute;
-  height: 0.5em;
+  height: 0.6em;
   width: 8em;
   left: -0.4em;
   right: 10px;
-  bottom: -0.1em;
+  bottom: -0.2em;
   border-radius: 50px;
   opacity: 0.5;
   z-index: -1;
