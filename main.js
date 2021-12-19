@@ -1,7 +1,7 @@
 'use strict';
 const menuBtn = document.querySelector('.mobilebtn');
-const navModal = document.querySelector('.navigationlinks');
+const mobilemenu = document.querySelector('.navigationlinks');
 
 menuBtn.addEventListener('click', () => {
-  navModal.classList.toggle('open');
+  mobilemenu.classList.toggle('open');
 });
