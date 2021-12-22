@@ -14,7 +14,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -62,7 +61,7 @@ Actice-States
 
 ### What I Learned
 
-Building this landing page challenge from frontendmentor was really fun and educational.
+Building this landing page challenge was really fun and educational.
 
 This was the first time that i decided to use semantic Html markup in a project, this taught me that using semantic markup makes your website very accessible and user-friendly.
 
@@ -157,18 +156,20 @@ Html
 Get better at structuring my website layout.
 
 Css
-Get better at using the ::after & ::before pseudo-elements.
+Get better at using pseudo-elements.
+Use
 
 Javascript
-In general I still want to get better at writing javascript.
+I want to improve alot more in javascript in all areas of it.
 
 ### Useful resources
 
-- [MSDN](https://www.msdn.com) - This helped me with pseudo-elements.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MSDN](https://www.msdn.com) - This helped me with how to use pseudo-elements to create a underline.
+- [Css Tricks](https://css-tricks.com/approaches-media-queries-sass/) - Thishelped me finally understand how to use mixins for media queries using Sass.
 
 
 ## Author
 
 - Frontend Mentor - [@Duran144](https://www.frontendmentor.io/profile/Duran144)
 - Github - [Duran144](https://github.com/Duran144)
+- Vercel - []()
