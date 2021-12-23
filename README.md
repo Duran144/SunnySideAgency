@@ -32,7 +32,7 @@ Desktop
 ![](./screenshots/desktop.png)
 
 Mobile
-![](./screenshots/mobile.png)
+![](./screenshots/Mobile.png)
 
 Mobile-menu
 ![](./screenshots/mobilemenu.png)
@@ -40,13 +40,15 @@ Mobile-menu
 Actice-States
 ![](./screenshots/navactivestate.png)
 ![](./screenshots/underlineactivestate.png)
-![](./screenshots/footerlinksactivestate.png)
-![](./screenshots/socialplatformsactivestate.png)
+![](./screenshots/underlineactivestate2.png)
+![](./screenshots/footeractivestate.png)
+![](./screenshots/footeractivestate2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: []()
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-6qNqxrA2o)
+- Live Site URL: (https://sunny-side-agency-red.vercel.app/)
+- Github Repo: (https://github.com/Duran144/SunnySideAgency)
 
 
 ## My process
@@ -175,4 +177,4 @@ I want to improve alot more in javascript in all areas of it.
 
 - Frontend Mentor - [@Duran144](https://www.frontendmentor.io/profile/Duran144)
 - Github - [Duran144](https://github.com/Duran144)
-- Vercel - [Duran144]()
+- Vercel - [Duran144](https://vercel.com/duran144)
