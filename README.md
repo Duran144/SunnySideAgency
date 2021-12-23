@@ -46,6 +46,7 @@ Actice-States
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: []()
 
 
 ## My process
@@ -65,6 +66,10 @@ Building this landing page challenge was really fun and educational.
 
 This was the first time that i decided to use semantic Html markup in a project, this taught me that using semantic markup makes your website very accessible and user-friendly.
 
+I've used sass in another project before but it was structured badly and had too many lines of code for one file, this time i learned about partials and using them you can split up your one css file into multiple smaller ones then import them when needed in a file, this turned out a lot more structered than before. Also I learned about mixins.
+
+Using javascript in this project i learned how to create a dropdown menu for mobile devices
+
 ```html
 <header>
     <figure>
@@ -81,8 +86,6 @@ This was the first time that i decided to use semantic Html markup in a project,
     </nav>
 </header>
 ```
-
-I've used sass in another project before but it was structured badly and had many lines of code, this time i learned how to use partials to split up your code and make it more structured this way by importing it into the main sass file. Also how to use mixins.
 
 ```sass
 @import 'variables';
@@ -140,7 +143,7 @@ Mixins for media queries
         }
 }
 ```
-Using javascript in this project i learned how to create a dropdown menu for mobile devices
+
 ```js
 const menuBtn = document.querySelector('.mobilebtn');
 const mobilemenu = document.querySelector('.navigationlinks');
@@ -165,11 +168,11 @@ I want to improve alot more in javascript in all areas of it.
 ### Useful resources
 
 - [MSDN](https://www.msdn.com) - This helped me with how to use pseudo-elements to create a underline.
-- [Css Tricks](https://css-tricks.com/approaches-media-queries-sass/) - Thishelped me finally understand how to use mixins for media queries using Sass.
+- [Css Tricks](https://css-tricks.com/approaches-media-queries-sass/) - This helped me finally understand how to use mixins for media queries using Sass.
 
 
 ## Author
 
 - Frontend Mentor - [@Duran144](https://www.frontendmentor.io/profile/Duran144)
 - Github - [Duran144](https://github.com/Duran144)
-- Vercel - []()
+- Vercel - [Duran144]()
